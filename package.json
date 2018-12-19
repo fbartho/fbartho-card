@@ -1,27 +1,31 @@
 {
-  "name": "bitandbang",
-  "version": "1.1.0",
-  "description": "A personal card for Tierney Cyren (@bitandbang)",
-  "main": "index.js",
-  "bin": {
-    "bitandbang": "./bin/card.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/bnb/bitandbang.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
-  "license": "MIT",
-  "dependencies": {
-    "boxen": "^2.1.0",
-    "chalk": "^2.4.1",
-    "commander": "^2.19.0"
-  },
-  "devDependencies": {
-    "standard": "^12.0.1"
-  }
+	"name": "fbartho",
+	"version": "1.0.0",
+	"description": "A personal card for Frederic Barthelemy (@fbartho), original from Tierney Cyren (@bitandbang)",
+	"main": "index.js",
+	"bin": {
+		"fbartho": "`npm bin/`ts-node ./bin/card.ts"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/fbartho/fbartho-fbartho.git"
+	},
+	"scripts": {
+		"fbartho": "`npm bin`/ts-node ./bin/card.ts",
+		"prettier:all": "prettier --write \"./bin/**/*.{ts,tsx,js,jsx}\" ",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "Frederic Barthelemy <frederic@fbartho.com>",
+	"license": "MIT",
+	"dependencies": {
+		"boxen": "2.x",
+		"chalk": "2.x",
+		"commander": "2.x",
+		"ts-node": "7.x",
+		"typescript": "3.x"
+	},
+	"devDependencies": {
+		"prettier": "1.15.x"
+	}
 }
