@@ -1,10 +1,10 @@
 {
 	"name": "fbartho",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A personal card for Frederic Barthelemy (@fbartho), original from Tierney Cyren (@bitandbang)",
 	"main": "index.js",
 	"bin": {
-		"fbartho": "`npm bin/`ts-node ./bin/card.ts"
+		"fbartho": "ts-node ./bin/card.ts"
 	},
 	"repository": {
 		"type": "git",
