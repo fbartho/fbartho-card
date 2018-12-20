@@ -1,4 +1,4 @@
-#!/usr/bin/env ts-node
+#!/usr/bin/env node
 // 👆 Used to tell Node.js that this is a CLI tool
 
 // Pull in our modules
